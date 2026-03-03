@@ -7,7 +7,7 @@ function App() {
     <>
       <Header title='Xansa IT Solutions' searchBar={true} />
       <Content />
-      <Footer />
+      <Footer title='Xansa IT Solutions' contact='9770225248' email='veerlodhi54@gmail.com' />
     </>
   );
 }

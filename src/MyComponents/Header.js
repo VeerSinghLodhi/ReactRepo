@@ -32,12 +32,14 @@ export default function Header({title="XITS",searchBar=false}) {
     )
 }
 
-
+// Old way to provide default values.
 Header.defaultProps = {
     title: "Your Title Here",
     searchBar: true
 }
+// New Way({title='XITS',searchBar=true}) like this we can provide default values.
 
+// Provide ProbTypes like string, number or boolean whatever types we have.
 Header.propTypes = {
     title: PropTypes.string,
     searchBar: PropTypes.bool
